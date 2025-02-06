@@ -1,4 +1,10 @@
+# Environment
 venv/
-__pycache__/
-db.sqlite3
 .env
+
+# Database
+*.sqlite3
+
+# Django
+__pycache__/
+*.pyc
