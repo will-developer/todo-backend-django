@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'tasks',
     'corsheaders',
-    'tasks.apps.TasksConfig',  # Register tasks app
 ]
 
 MIDDLEWARE = [
