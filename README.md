@@ -18,8 +18,8 @@ Before you begin, ensure you have the following installed on your machine:
 Clone this repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/will-developer/todo-back-end-django
-cd todo-back-end-django
+git clone https://github.com/will-developer/todo-backend-django
+cd todo-backend-django
 ```
 
 ### 📌 Create a Virtual Environment (Recommended)
@@ -28,8 +28,6 @@ It's highly recommended to create a virtual environment to isolate project depen
 
 ```bash
 python -m venv venv  # Create virtual environment
-source venv/bin/activate  # Activate on Linux/Mac
-venv\Scripts\activate  # Activate on Windows
 ```
 
 ### 📦 Install Dependencies
@@ -37,7 +35,7 @@ venv\Scripts\activate  # Activate on Windows
 Install the required Python packages:
 
 ```bash
-pip install -r requirements.txt
+python.exe -m pip install --upgrade pip
 ```
 
 ### 📊 Database Migrations
@@ -45,7 +43,6 @@ pip install -r requirements.txt
 Apply database migrations to set up the database schema:
 
 ```bash
-python manage.py makemigrations tasks
 python manage.py migrate
 ```
 
